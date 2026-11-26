@@ -1,0 +1,12 @@
+{
+  // Nom du Worker / du projet sur Cloudflare
+  "name": "gestion-des-etudiants1",
+  "compatibility_date": "2026-11-24",
+
+  // Site statique React/Vite : tout dist/ est servi par le CDN
+  "assets": {
+    "directory": "./dist",
+    // React Router : toutes les routes inconnues renvoient index.html
+    "not_found_handling": "single-page-application"
+  }
+}
